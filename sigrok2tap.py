@@ -12,6 +12,9 @@
 
 
 
+
+
+
 with open("print_h.tap", "rb") as f:
     fileSignature = f.read(12)
     print fileSignature
